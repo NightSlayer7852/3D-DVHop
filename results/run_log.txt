@@ -1,0 +1,8 @@
+[single_deployment] done
+[pso_convergence] done
+[runtime_tests] done
+[sweep_anchor_ratio] 450 trials in 422 s
+[sweep_comm_radius] 450 trials in 316 s
+[sweep_n_total] 450 trials in 245 s
+[diagnostic_distance_components] done
+[sensitivity] done

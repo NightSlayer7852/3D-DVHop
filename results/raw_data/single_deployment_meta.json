@@ -1,0 +1,29 @@
+{
+  "experiment": "single_deployment",
+  "config": {
+    "n_trials": 50,
+    "master_seed": 2023,
+    "network": {
+      "side_length": 100.0,
+      "n_total": 200,
+      "anchor_ratio": 0.2,
+      "comm_radius": 40.0
+    },
+    "pso": {
+      "n_particles": 30,
+      "max_iter": 300,
+      "w_start": 0.9,
+      "w_end": 0.4,
+      "c1": 2.0,
+      "c2": 2.0,
+      "v_max": 10.0,
+      "constant_inertia": null
+    },
+    "improved": {
+      "mcr_mode": "anchor_only",
+      "zero_denominator_tol": 1e-12
+    }
+  },
+  "seed": 1249677524,
+  "generated": "2026-10-31 18:38:03"
+}
